@@ -1,6 +1,6 @@
 # android-TopActivity
 A useful tool for Android Developers, which shows the package name and class name of current activity.
 
-**[Install on Google Play](https://play.google.com/store/apps/details?id=com.willme.topactivity)**
 
-To track the activities in shell you can run this shell script: [current_activity.sh](https://gist.github.com/109021017/43e7f5ad1361ad9caa3e)
+利用AccessibilityService检测用户的动作，一旦有动作触发就会进入onAccessibilityEvent，在这里面就可以获取当前页的activity的包名和类名
+
